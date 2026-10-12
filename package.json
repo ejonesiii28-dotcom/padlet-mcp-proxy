@@ -1,0 +1,13 @@
+{
+  "name": "padlet-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Proxy to Padlet's official hosted MCP server (https://mcp.padlet.com) for Manufact Cloud",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "echo 'no build step'",
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
