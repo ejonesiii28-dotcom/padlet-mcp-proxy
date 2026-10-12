@@ -31,7 +31,6 @@ const server = http.createServer((req, res) => {
 
   const headers = { ...req.headers, host: UPSTREAM.host };
   delete headers['x-forwarded-host'];
-  delete headers['content-length'] === undefined;
 
   const isDiscovery = path.startsWith('/.well-known/oauth-protected-resource');
   if (isDiscovery) delete headers['accept-encoding'];
